@@ -1,5 +1,4 @@
 {
-  "homepage": "https://matheussampaiocbi.github.io/MentalCare",
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",
@@ -11,9 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "server": "node server/index.js",
-    "dev:full": "concurrently \"npm run server\" \"npm run dev:full\""
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "dev:full": "concurrently \"npm run server\" \"npm run dev\""
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
